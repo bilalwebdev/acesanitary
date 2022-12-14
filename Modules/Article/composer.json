@@ -1,0 +1,27 @@
+{
+    "name": "harshal/article-module",
+    "description": "Article module with Posts, Categories, Tags, Comments. It works with harshal/ace-sanitary-middleware",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "Harshal",
+            "email": "harshal@virtina.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Article\\Providers\\ArticleServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Article\\": ""
+        }
+    }
+}

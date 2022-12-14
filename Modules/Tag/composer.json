@@ -1,0 +1,25 @@
+{
+    "name": "harshal/tag",
+    "description": "",
+    "type": "laravel-module",
+    "version": "v5.0.0",
+    "authors": [
+        {
+            "name": "Harshal",
+            "email": "harshal@virtina.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tag\\": ""
+        }
+    }
+}

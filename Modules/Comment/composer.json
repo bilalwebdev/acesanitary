@@ -1,0 +1,27 @@
+{
+    "name": "harshal/comment-module",
+    "description": "Comment module for Ace Sanitary Middleware, harshal/ace-sanitary-middleware. It can be used with any other Models. One to many polymorphic relation.",
+    "type": "laravel-module",
+    "version": "v3.0.0",
+    "authors": [
+        {
+            "name": "Harshal",
+            "email": "harshal@virtina.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Comment\\Providers\\CommentServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Comment\\": ""
+        }
+    }
+}
